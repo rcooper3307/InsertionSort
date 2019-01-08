@@ -10,7 +10,8 @@ public class SelectionSort {
             //confused on how to get the smallest number in the array
             //switch that number with the number at min
             //min + 1
-            SortingUtil.sort
+            SortingUtil.minimum(arr,0);
+            SortingUtil.swap(arr,i,min);
         }
     }
 }
