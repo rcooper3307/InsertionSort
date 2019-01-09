@@ -55,7 +55,7 @@ public class SortingUtil {
            {
                minInd = i;
            }
-           return minInd;
        }
+       return minInd;
     }
 }
